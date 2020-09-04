@@ -4,6 +4,7 @@ import "./App.css";
 
 import axios from "axios";
 import Header from "./components/header/header.component";
+import Footer from "./components/footer/footer.component";
 function App() {
   const [flashcards, setFlashcards] = useState(null);
   const [category, setCategory] = useState(18);
@@ -45,6 +46,7 @@ function App() {
     <div className="App">
       <Header category={category} handleCategoryChange={handleCategoryChange} />
       {flashcards ? <FlashcardsList flashcards={flashcards} /> : null}
+      <Footer />
     </div>
   );
 }
