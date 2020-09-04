@@ -5,10 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #c8d0d2;
+  background: #50c0e26f;
   font-family: "Grandstander", cursive;
 }
-
 * {
   margin: 0;
   padding: 0;
