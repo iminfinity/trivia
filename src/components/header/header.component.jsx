@@ -4,6 +4,7 @@ const Header = ({ category, handleCategoryChange }) => {
   return (
     <header className="header">
       <h1>Trivia</h1>
+
       <select value={category} onChange={handleCategoryChange}>
         <option value="18">Computer Science</option>
         <option value="19">Mathematics</option>
